@@ -61,10 +61,10 @@ ul li:hover::after {
   gap: 30px;
 }
 .social-inst{
-  background-image: url(/images/icons/IN.svg);
+  background-image: url(images/icons/IN.svg);
 }
 .social-fb{
-  background-image: url(/images/icons/FB.svg);
+  background-image: url(images/icons/FB.svg);
 }
 
 .social-element{
@@ -207,15 +207,15 @@ transform: translate(-35%, -3px);
   opacity: 1;
 }
 .card-background-maraphon {
-  background-image: url(/images/no1.png);
+  background-image: url(images/no1.png);
 
 }
 .card-background-vebinar {
-  background-image: url(/images/vebinar.png);
+  background-image: url(images/vebinar.png);
 
 }
 .card-background-yoga {
-  background-image: url(/images/Yoga.png);
+  background-image: url(images/Yoga.png);
 
 }
 .card-gradient {
@@ -701,7 +701,7 @@ display: none;
 .modal-open{
   width: 34px;
   height: 22px;
-  background-image: url(/images/icons/modal.svg);
+  background-image: url(images/icons/modal.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -751,7 +751,7 @@ display: none;
   width: 20px;
     height: 19px;
     background-color: transparent;
-    background-image: url(/images/icons/close.svg);
+    background-image: url(images/icons/close.svg);
     background-repeat: no-repeat;
     background-size: contain;
     border: none;
@@ -866,17 +866,17 @@ width: 80px;
     font-size: 12px;
   }
   .card-background-maraphon{
-    background-image: url(/images/no1.png);
+    background-image: url(images/no1.png);
     height: 308px;
     width: 100%;
   }
   .card-background-vebinar{
-    background-image: url(/images/vebinar.png);
+    background-image: url(images/vebinar.png);
     height: 308px;
     width: 100%;
   }
   .card-background-yoga{
-    background-image: url(/images/no3.jpg);
+    background-image: url(images/no3.jpg);
     height: 308px;
     width: 100%;
   }
