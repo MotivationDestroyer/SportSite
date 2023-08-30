@@ -207,15 +207,15 @@ transform: translate(-35%, -3px);
   opacity: 1;
 }
 .card-background-maraphon {
-  background-image: url(images/no1.png);
+  background-image:url(images/no1.png);
 
 }
 .card-background-vebinar {
-  background-image: url(images/vebinar.png);
+  background-image:url(images/vebinar.png);
 
 }
 .card-background-yoga {
-  background-image: url(images/Yoga.png);
+  background-image:url(images/Yoga.png);
 
 }
 .card-gradient {
