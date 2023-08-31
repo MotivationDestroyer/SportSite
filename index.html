@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -160,8 +160,13 @@
                         <button type="submit" class="submit-email">ПОДПИСАТЬСЯ</button>
                     </div>
                     <div class="agreement">
-                        <input type="checkbox" id="01" class="checkbox">
-                        <label for="01">Согласен с обработкой <a href="#" target="_blank">персональных данных</a></label>
+                        <div class="agreement-submit-text">
+                            <input type="checkbox" id="01" class="checkbox">
+                            <label for="01">Согласен с обработкой <a href="#" target="_blank">персональных данных</a></label>
+                        </div>
+                        <button type="submit" class="submit-email submit-phone">ПОДПИСАТЬСЯ</button>
+                        <!--не знаю как тут сделать кнопку ниже, если только перелопатить код и сделать через grid, чтобы элемент с кнопкой стал ниже обработки данных-->
+                        <!--увидел что кто-то сделал через нивидимую доп.кнопку и решил сделать так-же-->
                     </div>
                 </div>
             </div>
@@ -244,7 +249,7 @@
             <li class="social-fb social-element"></li>
         </ul>
     </div>
-    <script src="scripts/scriptModal.js"></script>
+    <script src="/scripts/scriptModal.js"></script>
 </body>
 
 </html>
